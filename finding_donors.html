@@ -8280,13 +8280,13 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">¶</a></h3><ul>
-<li>One real-world application the model can be applied is Advertising Effectiveness.</li>
-<li>Strengths: Simple to implement, performs well on linearly seperable data, overfitting can be reduced.</li>
-<li>Weaknesses: Prone to underfitting, sensitive to outliers, assumes data is independent.</li>
+<h3 id="Logistic-Regression">Logistic Regression<a class="anchor-link" href="#Logistic-Regression">¶</a></h3><ul>
+<li>One real-world application the model can be applied is predicting the likelihood of a patient developing cancer.</li>
+<li>Strengths: Simple to implement, performs well on linearly seperable data, less prone to overfitting.</li>
+<li>Weaknesses: Can't solve non linear problems, sensitive to outliers and requires a large dataset.</li>
 <li>This model would work well with the data because it performs well on linearly seperable data.</li>
 </ul>
-<p>Refernce: <a href="https://iq.opengenus.org/advantages-and-disadvantages-of-linear-regression/">https://iq.opengenus.org/advantages-and-disadvantages-of-linear-regression/</a></p>
+<p>Refernce: <a href="https://iq.opengenus.org/advantages-and-disadvantages-of-logistic-regression/">https://iq.opengenus.org/advantages-and-disadvantages-of-logistic-regression/</a></p>
 </div>
 </div>
 </div>
@@ -8548,7 +8548,7 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Answer: </strong></p>
-<p>I think the Linear Regression model is the most appropiate since the the training and prediction time is better than the other two models. Although the F-score is slightly worse than the SVC, the accuracy is basically the same and tuning the model will be a lot easier with the faster run time.</p>
+<p>I think the Logistic Regression model is the most appropiate since the the training and prediction time is better than the other two models. Although the F-score is slightly worse than the SVC, the accuracy is basically the same and tuning the model will be a lot easier with the faster run time.</p>
 </div>
 </div>
 </div>
@@ -8575,8 +8575,7 @@ Look at the graph at the bottom left from the cell above(the visualization creat
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Answer: </strong></p>
-<p>Imagine you have a set of data points that represent a relationship between two things. For example, you might have data on the number of hours a student studies and their exam scores. Now, you want to understand if there's a straight-line relationship between the hours studied and the exam scores.</p>
-<p>Linear regression is like drawing the best-fit line through these points. This line helps you make predictions or understand the trend in your data. In simple terms, linear regression aims to find the straight line that best represents the overall pattern or trend in your data.</p>
+<p>Imagine you have a dataset where you want to predict a binary outcome, like whether an email is spam or not based on certain features (e.g., words used, sender's address). Logistic regression is like fitting a curve that best represents the relationship between these features and the binary outcome. It is a valuable tool for predicting probabilities and making classifications.a.</p>
 </div>
 </div>
 </div>
