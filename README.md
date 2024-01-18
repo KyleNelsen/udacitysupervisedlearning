@@ -1,6 +1,10 @@
-# Data Scientist Nanodegree
+# Data Analyst Nanodegree
 # Supervised Learning
 ## Project: Finding Donors for CharityML
+
+### Overview
+
+This is my first project for the Supervised Learning part of the Udacity Data Analytics Nanodegree. It involves using supervised machine learning models to determine which people are likely to donate to a charity.
 
 ### Install
 
