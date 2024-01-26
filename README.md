@@ -4,7 +4,7 @@
 
 ### Overview
 
-This is my first project for the Supervised Learning part of the Udacity Data Analytics Nanodegree. It involves using supervised machine learning models to determine which people are likely to donate to a charity.
+This is my project for the Supervised Learning part of the Udacity Data Analytics Nanodegree. It involves using supervised machine learning models to determine which people are likely to donate to a charity.
 
 ### Install
 
